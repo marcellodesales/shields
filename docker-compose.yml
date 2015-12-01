@@ -1,0 +1,7 @@
+server:
+  image: badges
+  environment:
+    - INFOSITE=http://ci.isp.platform.corp.intuit.net
+  ports:
+    - "80:80"
+  restart: always
