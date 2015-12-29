@@ -1,5 +1,5 @@
 server:
-  image: badges
+  image: marcellodesales/shields-io-badges
   environment:
     - INFOSITE=http://my-server.com
   ports:
