@@ -1,0 +1,7 @@
+server:
+  image: marcellodesales/shields-io-badges
+  environment:
+    - INFOSITE=http://my-server.com
+  ports:
+    - "80:80"
+  restart: always
